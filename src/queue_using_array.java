@@ -36,7 +36,7 @@ class queue{
             System.out.println("queue is empty");
         }
         int popped=arr[front];
-        if(count == -1){
+        if(count == 1){
             rear=-1;
             front=-1;
         }else{
